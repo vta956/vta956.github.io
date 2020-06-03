@@ -87,7 +87,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #2e3842;
+		background: gray;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3351,7 +3351,7 @@ input, select, textarea {
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: #21b2a6;
+		background: gray;
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
@@ -3810,14 +3810,13 @@ input, select, textarea {
 
 		}
 
-/* Main */
-
-	#main > header {
+/* Contact Us */
+	#contactUs > header {
 		padding: 12em 0 10em 0 ;
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/contactUs_schedule.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/contactUs_schedule.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/contactUs_schedule.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/contactUs_schedule.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -3825,25 +3824,25 @@ input, select, textarea {
 		text-align: center;
 	}
 
-		#main > header h2 {
+		#contactUs > header h2 {
 			font-size: 1.75em;
 			margin: 0 0 0.5em 0;
 		}
 
-		#main > header p {
+		#contactUs > header p {
 			color: inherit;
 			letter-spacing: 0.225em;
 			text-transform: uppercase;
 			top: 0;
 		}
 
-			#main > header p a {
+			#contactUs > header p a {
 				color: inherit;
 			}
 
 		@media screen and (max-width: 1680px) {
 
-			#main > header {
+			#contactUs > header {
 				padding: 10em 0 8em 0 ;
 			}
 
@@ -3851,7 +3850,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 1280px) {
 
-			#main > header {
+			#contactUs > header {
 				padding: 8em 3em 6em 3em ;
 			}
 
@@ -3859,7 +3858,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 980px) {
 
-			#main > header {
+			#contactUs > header {
 				padding: 10em 3em 8em 3em ;
 			}
 
@@ -3867,20 +3866,163 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
-			#main > header {
+			#contactUs > header {
 				padding: 5em 3em 3em 3em ;
 			}
 
-				#main > header h2 {
+				#contactUs > header h2 {
 					font-size: 1.25em;
 					margin: 0 0 1em 0;
 				}
 
 		}
 
-	body.is-mobile #main > header {
+	body.is-mobile #contactUs > header {
 		background-attachment: scroll;
 	}
+
+
+/* Schedule */
+#schedule > header {
+	padding: 12em 0 10em 0 ;
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/contactUs_schedule.jpg");
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/contactUs_schedule.jpg");
+	background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/contactUs_schedule.jpg");
+	background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/contactUs_schedule.jpg");
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+	#schedule > header h2 {
+		font-size: 1.75em;
+		margin: 0 0 0.5em 0;
+	}
+
+	#schedule > header p {
+		color: inherit;
+		letter-spacing: 0.225em;
+		text-transform: uppercase;
+		top: 0;
+	}
+
+		#schedule > header p a {
+			color: inherit;
+		}
+
+	@media screen and (max-width: 1680px) {
+
+		#schedule > header {
+			padding: 10em 0 8em 0 ;
+		}
+
+	}
+
+	@media screen and (max-width: 1280px) {
+
+		#schedule > header {
+			padding: 8em 3em 6em 3em ;
+		}
+
+	}
+
+	@media screen and (max-width: 980px) {
+
+		#schedule > header {
+			padding: 10em 3em 8em 3em ;
+		}
+
+	}
+
+	@media screen and (max-width: 736px) {
+
+		#schedule > header {
+			padding: 5em 3em 3em 3em ;
+		}
+
+			#schedule > header h2 {
+				font-size: 1.25em;
+				margin: 0 0 1em 0;
+			}
+
+	}
+
+body.is-mobile #schedule > header {
+	background-attachment: scroll;
+}
+
+/* About Us */
+#aboutUs > header {
+	padding: 12em 0 10em 0 ;
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/aboutUs.jpg");
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/aboutUs.jpg");
+	background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/aboutUs.jpg");
+	background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/aboutUs.jpg");
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+	#aboutUs > header h2 {
+		font-size: 1.75em;
+		margin: 0 0 0.5em 0;
+	}
+
+	#aboutUs > header p {
+		color: inherit;
+		letter-spacing: 0.225em;
+		text-transform: uppercase;
+		top: 0;
+	}
+
+		#aboutUs > header p a {
+			color: inherit;
+		}
+
+	@media screen and (max-width: 1680px) {
+
+		#aboutUs > header {
+			padding: 10em 0 8em 0 ;
+		}
+
+	}
+
+	@media screen and (max-width: 1280px) {
+
+		#aboutUs > header {
+			padding: 8em 3em 6em 3em ;
+		}
+
+	}
+
+	@media screen and (max-width: 980px) {
+
+		#aboutUs > header {
+			padding: 10em 3em 8em 3em ;
+		}
+
+	}
+
+	@media screen and (max-width: 736px) {
+
+		#aboutUs > header {
+			padding: 5em 3em 3em 3em ;
+		}
+
+			#aboutUs > header h2 {
+				font-size: 1.25em;
+				margin: 0 0 1em 0;
+			}
+
+	}
+
+body.is-mobile #aboutUs > header {
+	background-attachment: scroll;
+}
 
 /* Footer */
 
